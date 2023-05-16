@@ -10,6 +10,7 @@ function Navbar() {
     {title: 'Add Post', path: 'addPost'},
     {title: 'Edit Post', path: 'editPost'},
     {title: 'About', path: 'about'},
+    {title: 'Login', path: 'auth'}
 ];
   return (
     <>

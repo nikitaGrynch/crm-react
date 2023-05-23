@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "id": "121",
+      "name": "john",
+      "isActive": true
+    },
+    {
+      "id": "122",
+      "name": "oleg",
+      "isActive": false
+    },
+    {
+      "id": "123",
+      "name": "sam",
+      "isActive": true
+    },
+    {
+      "id": "124",
+      "name": "kendrick",
+      "isActive": false
+    },
+    {
+      "id": "21be6424-d7ec-46ba-98b1-43bd57ade51e",
+      "name": "stus",
+      "isActive": true
+    },
+    {
+      "id": "43145ee5-854a-497d-9843-b4da0994938f",
+      "name": "stas",
+      "isActive": true
+    },
+    {
+      "id": "68693ddf-a18d-400c-b244-3d7c270187c8",
+      "name": "123",
+      "isActive": true
+    },
+    {
+      "id": "f9fb2c8d-683c-4c0c-87f0-f0da8b6c923f",
+      "name": "123123",
+      "isActive": true
+    },
+    {
+      "id": "4cadc304-296b-48f4-9a82-8e194342a4c7",
+      "name": "123123123",
+      "isActive": true
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "category": "Concert",
+      "title": "Rock Festival",
+      "date": "2023-06-15",
+      "location": "City Stadium",
+      "description": "A music festival featuring popular rock bands from around the world.",
+      "image": "https://media.resources.festicket.com/www/magazine/Rock_L.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Theater",
+      "title": "Romeo and Juliet",
+      "date": "2023-07-05",
+      "location": "City Theater",
+      "description": "A classic Shakespearean tragedy performed by a renowned theater group.",
+      "image": "https://cdscloud.stratfordfestival.ca/uploadedImages/Whats_On/Plays_and_Events/Plays/2017/Romeo-and-Juliet/Videos_and_Photos/Photos/0910_Romeo-and-Juliet_On-The-Run.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Movie",
+      "title": "Blockbuster Night",
+      "date": "2023-06-30",
+      "location": "City Cinema",
+      "description": "An evening of movie screenings showcasing the latest blockbuster releases.",
+      "image": "https://www.oregonlive.com/resizer/xvueXql3AhbbkKR0X4xIJZ09ALk=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/IATMEGTLYNCIRP6CCNNVK3K4EQ.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Art",
+      "title": "Modern Art Showcase",
+      "date": "2023-07-12",
+      "location": "City Art Gallery",
+      "description": "An exhibition featuring contemporary artworks by local and international artists.",
+      "image": "https://www.museumofcontemporaryafricanart.com/wp-content/uploads/2020/07/image.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Dance",
+      "title": "Ballet Extravaganza",
+      "date": "2023-08-02",
+      "location": "City Opera House",
+      "description": "An enchanting ballet performance by a world-renowned dance company.",
+      "image": "https://operahouse.od.ua/wp-content/uploads/2020/02/ballet-extravaganza-02.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Comedy",
+      "title": "Stand-Up Comedy Night",
+      "date": "2023-07-20",
+      "location": "City Comedy Club",
+      "description": "A hilarious night of stand-up comedy featuring popular comedians.",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/c7/44/e5/stand-up-comedy-night.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Sports",
+      "title": "Basketball Championship",
+      "date": "2023-07-10",
+      "location": "City Arena",
+      "description": "The final match of the city's basketball championship with top teams competing.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/220404234325-36-kansas-unc-ncaa-championship-2022.jpg?c=16x9"
+    },
+    {
+      "id": 8,
+      "category": "Music",
+      "title": "Summer Music Festival",
+      "date": "2023-08-05",
+      "location": "City Park",
+      "description": "A multi-genre music festival featuring live performances by popular artists.",
+      "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1190x10000:format=jpg/path/sa6549607c78f5c11/image/i82f8384a1348ab84/version/1554202007/tomorrowland-best-summer-music-festivals-europe.jpg"
+    },
+    {
+      "id": 9,
+      "category": "Workshop",
+      "title": "Photography Masterclass",
+      "date": "2023-07-25",
+      "location": "City Community Center",
+      "description": "A photography workshop conducted by an acclaimed photographer.",
+      "image": "https://indrastudios.com/wp-content/uploads/2019/06/phooclassf.jpg"
+    }
+  ]
+}

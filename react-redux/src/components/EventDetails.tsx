@@ -1,25 +1,38 @@
-// import React from 'react';
-// import { useParams } from 'react-router-dom';
-// import FavoriteButton from './FavoriteButton';
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useParams } from "react-router-dom";
+import IEventDetailsState from "../redux-toolkit/interfaces/IEventDetailsState";
+import { getEvent } from "../redux-toolkit/slices/eventDetailsSlice";
 
-// const EventDetails = ({ events }) => {
-//   const { eventId } = useParams();
-//   const event = events.find(event => event.id === eventId);
+const EventDetails = () => {
+  const { id } = useParams();
+  console.log(id);
+  const dispatch = useDispatch();
+  const { event }: IEventDetailsState = useSelector(
+    (state: any) => state.eventDetails
+  );
+  useEffect(() => {
+    dispatch(getEvent(id));
+    console.log(event);
+  }, [dispatch]);
 
-//   if (!event) {
-//     return <div>Event not found</div>;
-//   }
+  return (
+    <div>
+      <Link to="/">
+        <button>Go home</button>
+      </Link>
+      <h1>{event.title}</h1>
+      <img
+        style={{ height: "200px" }}
+        src={event.image}
+        alt={`${event.title} img`}
+      />
+      <p>{event.description}</p>
+      <p>Category: {event.category}</p>
+      <p>Location: {event.location}</p>
+      <p>Date: {event.date}</p>
+    </div>
+  );
+};
 
-//   return (
-//     <div>
-//       <h2>{event.title}</h2>
-//       <p>Category: {event.category}</p>
-//       <p>Date: {event.date}</p>
-//       <p>Location: {event.location}</p>
-//       <p>Description: {event.description}</p>
-//       <FavoriteButton eventId={event.id} />
-//     </div>
-//   );
-// };
-
-// export default EventDetails;
+export default EventDetails;

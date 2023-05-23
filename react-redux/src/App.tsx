@@ -8,16 +8,18 @@ import { getUsers } from "./redux-toolkit/slices/userServerSlice";
 import EventsList from "./components/EventsList";
 import { Outlet, Route, Routes } from "react-router-dom";
 import EventDetails from "./components/EventDetails";
+import City from "./components/City/City";
 
 function App() {
   return (
     <div>
-      <Routes>
-        <Route element={<Outlet />}>
-          <Route path="/" element={<EventsList />} />
+      <City />
+      {/* <Routes>
+        <Route path="/" element={<Outlet />}>
+        <Route path="/" element={<EventsList />} />
           <Route path="/:id" element={<EventDetails />} />
         </Route>
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
